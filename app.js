@@ -31,8 +31,7 @@ let section2Tl = gsap.timeline({
         trigger: ".section2",
         start: "top top",
         end: "bottom top",
-        scrub: true, 
-        toggleActions: "play none reverse none",
+        toggleActions: "play none none reverse",
     }
 });
 
@@ -108,7 +107,7 @@ let section4Tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".section4",
         start: "right center",
-        end: "left center",
+             end: "+=4000"
     }
 });
 
